@@ -6,6 +6,7 @@
 
 body{
     background-color: #1D1D1D !important;
+    
 }
 
 .roboto-light {
@@ -61,9 +62,30 @@ body{
 }
 
 main{
-    width: 100vw;
+    width: 100%;
 }
 
 .heroImg{
-    width: 100vw;
+    width: 100%;
+    object-fit: contain;
+}
+
+.containerSerivicios{
+    margin-top: 3%;
+    
+}
+
+#servicios{
+    background-color: black;
+    padding-bottom: 3%;
+}
+
+.card{
+    width: 18rem;
+    background-color: #1D1D1D !important ;
+    color: white !important;
+}
+
+#logoReparacion{
+    filter: drop-shadow(2px 2px 7px var(--colorSecundario))
 }
