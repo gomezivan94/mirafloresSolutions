@@ -1,0 +1,69 @@
+:root{
+    --colorPrimario: #3F04B5;
+    --colorSecundario: #7e2dc0;
+    
+}
+
+body{
+    background-color: #1D1D1D !important;
+}
+
+.roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.divNavbar{
+    padding-left: 10%;
+}
+
+.divNavbar a{
+    color: var(--colorPrimario);
+    font-size: 32px;
+    font-family: var(--fuentePrincipal);
+    margin-left: 3%;
+}
+
+.divNavbar a:hover{
+    color: var(--colorSecundario);
+    text-decoration: underline solid var(--colorPrimario);
+    transform: scale(1.2);
+}
+
+.navbar-toggler{
+    background-color: var(--colorPrimario) !important;
+}
+
+#logoNav{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    margin-left: 10%;
+    filter: drop-shadow(5px 5px 10px #7e2dc0);
+}
+
+.navbar{
+    background: black !important;
+}
+
+main{
+    width: 100vw;
+}
+
+.heroImg{
+    width: 100vw;
+}
